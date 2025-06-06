@@ -1,1 +1,1 @@
-# SOLID_PRINCEBLES
+# 🧱 SOLID Principles Practice Project
