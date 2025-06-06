@@ -16,3 +16,8 @@
 
     D - Dependency Inversion Principle (DIP)
     Classes should depend on abstractions, not on concrete implementations
+## 🔧 How the Principles Were Applied
+
+### ✅ Example 1: SRP  
+The `UserManager` class is only responsible for managing users, while the `Logger` class handles logging.
+
