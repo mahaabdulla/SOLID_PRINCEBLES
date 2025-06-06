@@ -16,20 +16,3 @@
 
     D - Dependency Inversion Principle (DIP)
     Classes should depend on abstractions, not on concrete implementations
-## 🔧 How the Principles Were Applied
-
-### ✅ Example 1: SRP  
-The `UserManager` class is only responsible for managing users, while the `Logger` class handles logging.
-
-### ✅ Example 2: OCP  
-We created a `PaymentMethod` interface that can be extended for different payment types without modifying the core code.
-
-### ✅ Example 3: LSP  
-Classes like `CreditCardPayment` and `PaypalPayment` inherit from `PaymentMethod` and can be used interchangeably.
-### ✅ Example 4: ISP  
-We split large interfaces into smaller, more specific ones tailored to particular use cases.
-
-### ✅ Example 5: DIP  
-We use `abstract class` or `interface` to reduce coupling between classes and rely on abstractions.
-
-
