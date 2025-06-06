@@ -21,3 +21,8 @@
 ### ✅ Example 1: SRP  
 The `UserManager` class is only responsible for managing users, while the `Logger` class handles logging.
 
+### ✅ Example 2: OCP  
+We created a `PaymentMethod` interface that can be extended for different payment types without modifying the core code.
+
+### ✅ Example 3: LSP  
+
