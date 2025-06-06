@@ -16,3 +16,14 @@
 
     D - Dependency Inversion Principle (DIP)
     Classes should depend on abstractions, not on concrete implementations
+
+## 📌 Project Overview
+
+This is a Dart-based practice project focused on applying the **Single Responsibility Principle (SRP)** — the first of the five SOLID principles in object-oriented programming. The goal is to write clean, modular, and testable code by splitting the responsibilities of a `Person` class into dedicated components:
+
+- Validation (input rules)
+- BMI calculation (business logic)
+- Data persistence (history storage)
+
+
+
