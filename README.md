@@ -25,4 +25,11 @@ The `UserManager` class is only responsible for managing users, while the `Logge
 We created a `PaymentMethod` interface that can be extended for different payment types without modifying the core code.
 
 ### ✅ Example 3: LSP  
+Classes like `CreditCardPayment` and `PaypalPayment` inherit from `PaymentMethod` and can be used interchangeably.
+### ✅ Example 4: ISP  
+We split large interfaces into smaller, more specific ones tailored to particular use cases.
+
+### ✅ Example 5: DIP  
+We use `abstract class` or `interface` to reduce coupling between classes and rely on abstractions.
+
 
