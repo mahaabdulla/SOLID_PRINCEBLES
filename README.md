@@ -25,5 +25,7 @@ This is a Dart-based practice project focused on applying the **Single Responsib
 - BMI calculation (business logic)
 - Data persistence (history storage)
 
+Each responsibility is handled in its own class to keep the code maintainable and aligned with SRP.
+
 
 
